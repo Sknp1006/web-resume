@@ -1,0 +1,73 @@
+{
+  "name": "web-resume",
+  "version": "0.2.0",
+  "description": "Web 简历",
+  "private": true,
+  "repository": {
+    "url": "https://github.com/YunYouJun/web-resume",
+    "type": "git"
+  },
+  "author": {
+    "url": "https://www.yunyoujun.cn",
+    "email": "me@yunyoujun.cn",
+    "name": "YunYouJun"
+  },
+  "scripts": {
+    "dev": "vite",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "lint": "npx eslint --ext .js,.ts,.json,.vue --fix .",
+    "serve": "vite preview",
+    "build": "cross-env NODE_ENV=production vite-ssg build",
+    "schema": "ts-node-script scripts/schema.ts",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@vueuse/core": "^6.5.3",
+    "js-yaml": "^4.1.0",
+    "monaco-editor": "^0.28.1",
+    "monaco-yaml": "3.2.1",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.0-rc.9",
+    "prism-theme-vars": "^0.2.2",
+    "sass": "^1.42.1",
+    "vue": "^3.2.18",
+    "vue-about-me": "^1.2.0",
+    "vue-gtag-next": "^1.14.0",
+    "vue-i18n": "^9.2.0-beta.6",
+    "vue-router": "^4.0.11"
+  },
+  "devDependencies": {
+    "@iconify/json": "^1.1.406",
+    "@intlify/vite-plugin-vue-i18n": "^2.4.0",
+    "@rollup/plugin-yaml": "^3.1.0",
+    "@types/js-yaml": "^4.0.3",
+    "@types/markdown-it-link-attributes": "^3.0.1",
+    "@types/node": "^16.10.1",
+    "@types/nprogress": "^0.2.0",
+    "@vitejs/plugin-vue": "^1.9.2",
+    "@vue/compiler-sfc": "^3.2.18",
+    "@vue/server-renderer": "^3.2.18",
+    "@vueuse/head": "^0.6.0",
+    "@yunyoujun/eslint-config": "^0.2.1",
+    "@yunyoujun/logger": "^0.1.4",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.2",
+    "markdown-it-link-attributes": "^3.0.0",
+    "markdown-it-prism": "^2.2.1",
+    "typescript": "^4.4.3",
+    "typescript-json-schema": "^0.51.0",
+    "unplugin-auto-import": "^0.4.8",
+    "unplugin-icons": "^0.11.4",
+    "unplugin-vue-components": "^0.15.3",
+    "vite": "^2.5.10",
+    "vite-plugin-md": "^0.11.1",
+    "vite-plugin-pages": "^0.18.1",
+    "vite-plugin-pwa": "^0.11.2",
+    "vite-plugin-vue-layouts": "^0.5.0",
+    "vite-plugin-windicss": "^1.4.7",
+    "vite-ssg": "^0.15.3",
+    "workbox-window": "^6.3.0"
+  }
+}

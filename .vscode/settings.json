@@ -1,0 +1,9 @@
+{
+  "yaml.schemas": {
+    "./public/schema/resume.schema.json": "*.resume.yml"
+  },
+  "i18n-ally.localesPaths": [
+    "locales"
+  ],
+  "i18n-ally.keystyle": "nested"
+}
