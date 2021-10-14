@@ -1,0 +1,1 @@
+import{_ as r,A as o,a as t,c as a,b as s}from"./app.d3850181.js";import"./yamlWorker.651cf9d1.js";import"./editorWorker.107b4ee0.js";const c={},n={class:"text-gray-700 dark:text-gray-200"};function _(m,i){const e=o("router-view");return t(),a("main",n,[s(e)])}var l=r(c,[["render",_]]);export{l as default};
